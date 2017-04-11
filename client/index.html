@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>TheWareHouse</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="angular/angular.js"></script>
+	<script src="angular-route/angular-route.js"></script>
+	<script src="angular-cookies/angular-cookies.js"></script>
+	<script src="assets/app.js"></script>
+	<script src="assets/controllers/userController.js"></script>
+	<script src="assets/controllers/productController.js"></script>
+	<script src="assets/controllers/orderController.js"></script>
+	<script src="assets/controllers/vendorController.js"></script>
+	<script src="assets/factories/mainFactory.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand active" href="#">TheWareHouse</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#!/homepage ">FAQ</a></li>
+				<li><a href="#">Support</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div id="partialsView" ng-view="" class="" n="">
+		
+	</div>
+</body>
+</html>
